@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<title>Order Details Page</title>
+	</head>
+	<body>
+		<header>
+			<img class = "logo" src="images\eMall_logo2.gif" alt="logo" width="300px" height="150px" align="left">
+			<ul class="menu">
+				<li class="menu"><a href="#"><img src="images\Shoppingcart_icon.png" alt="Profile icon" width="25px" height="25px"></a> <br></li>
+				<li class="menu"><a href="#"><img src="images\Profile_icon.png" alt="Profile icon" width="25px" height="25px">Account </a> <br></li>
+				<li class="menu"><a href="#"> Watchlist </a> <br></li>
+				<li class="menu"><a href="#"> Ship to </a> <br></li>
+				<li class="menu"><a href="Shops Display Page.html"> Shops </a> <br></li>
+				<li class="menu"><a href="eMall_Project.html"><img src="images\Home_icon.png" alt="Home icon" width="25px" height="25px">Home </a><br></li>
+				<li><center><div class="search-container">
+					<form action="/action_page.php">
+						<input type="text" placeholder="Search.." name="search">
+						<button type="submit">Search</button>
+					</form>
+				    </div>
+				    </center>
+				</li>
+			</ul>
+          
+		</header> <hr class="new1">
+
+         <div class="OrderDetails">
+			<form method="post" action="SaveDeliveryInformation.php">
+				<div class="table2">
+					<table style="width:100%">
+					
+						<tr><td rowspan ="10">
+						    <div class="column1">
+								Delivery Information<br><br><br>
+							</div>	
+								Name : <input type="text" id="Name" name="Name" placeholder="*Name" required> <br><br>
+								Address : <br>
+								<Textarea id="Address" name="Address" rows="5" cols="30" required></textarea> <br><br>
+								Postal Code : <input type="text" id="PostalCode"name="PostalCode" placeholder="*Postal Code" maxlength="10" required> <br><br>
+								Mobile Number : <input type="phone" id="MobileNumber" name="MobileNumber" pattern="[0-9]{10}" placeholder="*Mobile Number" maxlength="10" required> <br><br><br>
+							    <button type="reset" class = "button2">Reset</button> &nbsp 
+								<button type="submit" class = "button3" name="Submit">Save</button> &nbsp *Save this information	
+						</td></tr>
+			</form>
+						<form>
+						<tr><td rowspan ="10">
+						    <div class="column2">
+								Payment Information<br><br><br>
+							</div>
+								Card Number <input type="text" id="CardNumber" name="CardNumber" placeholder="XXXX XXXX XXXX XXXX" maxlength="19" required> <br><br><br>
+								Name on Card <input type="text" id="NameonCard" name="NameonCard" required> <br><br><br>
+								Expiry Date <input type = "text" id="ExpiryDate" name ="ExpiryDate" placeholder="MM/YY" maxlength="5" size="5" required> <br><br><br>
+								CVV <input type = "text" id="CVV"name = "CVV" placeholder="000" maxlength="3" size="3" required> <br><br><br>
+								<center><img src="images\card logo.png" alt="cardlogo" width="180px" height="50px"></center>
+						</td></tr>
+			
+					
+						<tr><td rowspan="10">
+						    <div class="column3">
+								Order Summary<br><br><br>
+							</div>	
+							<center>
+							<div class="column4">
+								<h3>Discount : <br><br>Total Price : </h3> <br><br><br>
+							</div>	
+								<button type="submit" class="button4" name="Submit">Place Order</button> <br><br><br>
+								*We keep your information and payment safe
+							</center>
+						</td></tr>
+				        </form>
+				</table>
+			</div>
+	        </div>	
+		
+		<hr class="new1">
+		<footer>
+	
+			<table style="width: 100%">
+				<tr>
+					<th>Quick Access</th>
+					<th>Our Information</th>
+					<th>Help & Contact</th>
+					<th>Stay Connected</th>
+				</tr>
+				<tr>
+					<td><a href="eMall_Project.html"> Home </a></td>
+					<td><a href="About us.html"> About us </a></td>
+					<td><a href="#"> Help </a></td>
+					<td><a href="#"> Facebook </a></td>
+				</tr>
+				<tr>
+					<td><a href="Shops Display Page.html"> Shops </a></td>
+					<td><a href="#"> News </a></td>
+					<td><a href="#"> Contact us </a></td>
+					<td><a href="#"> twitter </a></td>
+				</tr>
+				<tr>
+					<td><a href="#"> Watchlist </a></td>
+					<td><a href="#"> Policies </a></td>
+					<td></td>
+					<td><a href="#"> Instagram </a></td>
+				</tr>
+				<tr>
+					<td><a href="#"> Account </a></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>	
+
+			
+		</footer>
+	
+	</body>
+</html>

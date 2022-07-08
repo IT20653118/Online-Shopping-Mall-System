@@ -1,0 +1,200 @@
+/* style sheet */
+/*style the header*/
+header{
+  background-color:  #a6a6a6;
+  padding: 20px;
+  font-size: 35px;
+              
+}
+body{
+  background-color:  #a6a6a6;
+}
+/* Style the footer */
+footer{
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+}
+/*.h1{
+	color: red;
+}*/
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: auto;
+}
+hr.new1{
+	border: 2px solid black;
+}
+/* header styles*/
+ul.menu{
+	list-style-type: none;
+	background-color: black;
+  display: block;
+	color: #ff8080;
+  text-align: center;
+	padding: 20px;
+	overflow: hidden;
+}
+li.menu{
+	float: right;
+}
+li a{
+	color: white;
+	text-align: center;
+	padding: 15px 14px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #737373;
+}
+/*Searchbar style*/
+.search-container input[type=text] .search-container button{
+  float: right;
+  padding: 0px;
+  border: 5px solid black;
+  margin-top: 1px;
+  margin-right: 4%;
+  margin-bottom: auto;
+  margin-left: 60%;
+  font-size: 50px;
+}
+.search-container button:hover {
+  background: #737373;
+}
+
+
+div.table1 td {
+  text-align: left;
+  padding: 50px;
+}
+
+
+div.table2 td {
+  text-align: left;
+  padding: 70px;
+}
+ 
+
+div.column1 {
+	font-size:26px;
+	font-family:Yu Gothic UI;
+	font-weight:bold;
+}
+div.column2 {
+	font-size:25px;
+	font-family:"Open Sans", sans-serif;
+	text-align: center;
+	font-weight:bold;
+}
+div.column3 {
+	font-size:30px;
+	font-family:Candara;
+	text-align: center;
+	font-weight:bold;
+	margin-top: 50px;
+	margin-bottom: -10%;
+}
+div.column4 {
+	font-size:15px;
+	text-align: left;
+	padding: 15px;
+}
+
+
+
+
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Segoe UI;
+  
+  
+ }
+.card1:hover {
+	background-color: #737373;
+ }
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  
+}
+h2{
+   color:;
+}
+body {
+  background-color: lightblue;
+}
+
+.table3 td {
+	font-family: "Open Sans", sans-serif;
+}
+
+.table4 td {
+	font-family: "Open Sans", sans-serif;
+}
+.button2 {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #7B68EE;
+  text-align: center;
+  cursor: pointer;
+  width: 20%;
+  font-size: 15px;
+}
+.button2:hover {
+  opacity: 0.7;
+}
+.button3 {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #1E90FF;
+  text-align: center;
+  cursor: pointer;
+  width: 20%;
+  font-size: 15px;
+}
+.button3:hover {
+  opacity: 0.7;
+}
+
+
+.button4 {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:	#228B22 ;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  font-size: 18px;
+  margin-top: -10%;
+  margin-bottom: 1%;
+}
+.button4:hover {
+  opacity: 0.7;
+}
+.OrderDetails {
+	font-family: Segoe UI;
+}
+
